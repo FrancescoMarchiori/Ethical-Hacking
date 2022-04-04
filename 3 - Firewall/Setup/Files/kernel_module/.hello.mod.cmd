@@ -1,0 +1,1 @@
+cmd_/home/seed/Desktop/Challenges/3_Firewall/Setup/Files/kernel_module/hello.mod := { echo  /home/seed/Desktop/Challenges/3_Firewall/Setup/Files/kernel_module/hello.o; echo; } > /home/seed/Desktop/Challenges/3_Firewall/Setup/Files/kernel_module/hello.mod

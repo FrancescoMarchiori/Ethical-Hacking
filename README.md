@@ -79,8 +79,14 @@ pip install scapy
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="tcp"></div>
 
-### 👃🏽TCP Spoofing
+### 👃🏽 TCP Spoofing
 The vulnerabilities in the TCP/IP protocols represent a special genre of vulnerabilities in protocol designs and implementations; they provide an invaluable lesson as to why security should be designed in from the beginning, rather than being added as an afterthought. Moreover, studying these vulnerabilities might help us understand the challenges of network security and why many network security measures are needed.
+
+<p align="right"><a href="#top">(back to top)</a></p>
+<div id="firewall"></div>
+
+### 🧱 Firewalls
+A firewall inspects each incoming and outgoing packets and enforces the firewall policies set by the administrator. Since the packet processing is done within the kernel, the filtering must also be done within the kernel. Therefore, it seems that implementing such a firewall requires us to modify the Linux kernel. In the past, this had to be done by modifying and rebuilding the kernel. The modern Linux operating systems provide several new mechanisms to facilitate the manipulation of packets without rebuilding the kernel image. These two mechanisms are Loadable Kernel Module (LKM) and netfilter.
 
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="hardware"></div>
