@@ -43,6 +43,9 @@
     </li>
     <li>
       <a href="#hardware">Hardware Security</a>
+      <ul>
+        <li><a href="#spectre">Spectre Attack</a></li>
+      </ul>
     </li>
     <li>
       <a href="#web">Web Security</a>
@@ -95,6 +98,16 @@ A firewall inspects each incoming and outgoing packets and enforces the firewall
 <div id="hardware"></div>
 
 ## 🖥️ Hardware Security
+Hardware security is vulnerability protection that comes in the form of a physical device rather than software that is installed on the hardware of a computer system. The term "hardware security" also refers to the protection of physical systems from harm. equipment destruction attacks, for example, focus on computing devices and networked non-computing devices such as the ever-increasing number of connected devices in M2M or IoT (Internet of Things) environments.
+
+<p align="right"><a href="#top">(back to top)</a></p>
+<div id="spectre"></div>
+
+### 👻 Spectre Attack
+
+Discovered in 2017 and publicly disclosed in January 2018, the Spectre attack exploits critical vulnerabilities existing in many modern processors, including those from Intel, AMD, and ARM. The vulnerabilities allow a program to break inter-process and intra-process isolation, so a malicious program can read the data from the area that is not accessible to it. However, I don't own any device that comes with a CPU older than 2018, and therefore I couldn't be able to perform this attack on my own machines.
+
+<img src="https://i.postimg.cc/vZLMzm2V/3nyyx0.png" alt="Meme">
 
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="web"></div>
